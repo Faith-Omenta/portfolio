@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgb(0, 0, 0,0.5)50%,rgb(0, 0, 0,0.5)50%),url(img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.navbar{
+    width: 100px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+}
+.icon{
+    width:200px ;
+    height:70px ;
+    float: left;
+}
+.logo{
+color: #0026ff;
+font-size: 50px;
+font-family: Arial;
+float: left;
+/* padding-left: 20px; */
+padding-top: 15px;
+/* margin-right: 10%; */
+}
+.menu{
+width:400px;
+float: left;
+height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style:none ;
+    margin-left:50px ;
+    margin-top:27px ;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    color: #0026ff;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #00fff2;
+}
+.intro{
+    font-size: 40px;
+    padding-left: 15%;
+    padding-top: 10%;
+    display: flex;
+    gap: 15%;
+}
+.words{
+    padding-top: 10%;
+}
+.image img{
+ height: 600px;
+ width: 600px;
+ border-top-left-radius: 40%;
+ border-bottom-right-radius: 40%;
+}
+.icon{
+    display: flex;
+    font-size: 40px;
+}
+.button{
+    background: #00fff2;
+    width:100px ;
+    height:40px ;
+    border: 2px solid #00fff2;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    }
