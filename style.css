@@ -79,13 +79,14 @@ ul li a:hover{
     font-size: 40px;
 }
 .button{
-    background: #00fff2;
-    width:100px ;
-    height:40px ;
-    border: 2px solid #00fff2;
+    background: #002fff;
+    /* width:100px ;
+    height:40px ; */
+    border: 2px solid #003cff;
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
     border-bottom-right-radius:5px ;
     border-bottom-right-radius: 5px;
+    margin-top: 5%;
     }
