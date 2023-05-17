@@ -7,7 +7,7 @@
     background: linear-gradient(to top,rgb(0, 0, 0,0.5)50%,rgb(0, 0, 0,0.5)50%),url(img.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 130vh;
     background-repeat: no-repeat;
 }
 .navbar{
@@ -22,8 +22,8 @@
     float: left;
 }
 .logo{
-color: #0026ff;
-font-size: 50px;
+color: #080808;
+/* font-size: 30px; */
 font-family: Arial;
 float: left;
 /* padding-left: 20px; */
@@ -50,43 +50,72 @@ ul li{
 ul li a{
     text-decoration: none;
     font-family: Arial;
-    color: #0026ff;
+    color: #0f0f0f;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
     transition: 0.4s ease-in-out;
 }
 ul li a:hover{
     color: #00fff2;
 }
 .intro{
-    font-size: 40px;
-    padding-left: 15%;
+    font-size: 20px;
+    padding-left: 10%;
     padding-top: 10%;
     display: flex;
-    gap: 15%;
+    gap: 10%;
 }
 .words{
-    padding-top: 10%;
+    padding-top: 7%;
+    font-size: 20px;
 }
 .image img{
- height: 600px;
- width: 600px;
+ height: 300px;
+ width: 300px;
  border-top-left-radius: 40%;
  border-bottom-right-radius: 40%;
 }
 .icon{
     display: flex;
-    font-size: 40px;
+    font-size: 20px;
 }
-.button{
+/* .button{
     background: #002fff;
-    /* width:100px ;
-    height:40px ; */
-    border: 2px solid #003cff;
+    width:100px ;
+    height:40px ;
+    border: 2px solid #141414;
     margin-top: 13px;
     color: #fff;
-    font-size: 15px;
-    border-bottom-right-radius:5px ;
-    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    border-bottom-right-radius:10px ;
+    border-top-left-radius: 10px;
     margin-top: 5%;
-    }
+   } */
+   .head{
+    padding-left:46% ;
+   }
+.about{
+    /* padding-left: 40%; */
+    font-size: 20px;
+    padding-top: 5%;
+}
+.bout{
+   padding-left: 34%;
+}
+.out{
+    padding-left: 36%;
+}
+.ou{
+padding-left: 37%;
+}
+.b{
+padding-left: 38%;
+}
+.bou{
+    padding-left: 40%;
+
+}
+.ut{
+    padding-left: 42%;
+
+}
